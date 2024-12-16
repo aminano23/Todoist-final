@@ -19,6 +19,7 @@ export default function TodoistClone() {
       ...tasks,
       { id: Date.now(), text, completed: false, isEditing: false },
     ]);
+    
   };
 
   const toggleTask = (id: number) => {
